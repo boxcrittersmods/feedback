@@ -57,7 +57,7 @@ function gitSubmit() {
     if(!formdata.url) { 
         return;
     }
-    var url = window.location.origin + genFeedbackPage(formdata.url);
+    var url = SITE_URL + genFeedbackPage(formdata.url);
     
     feedbackurl.val(url);
     //console.log(url);
