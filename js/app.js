@@ -85,7 +85,7 @@ function feedbackSubmit() {
     var form = $('#feedback-form');
 
     var data = getFormData(form);
-    var api = "http://localhost:3000/feedback/";
+    var api = "https://bc-mod-api.herokuapp.com/feedback/";
     var url = api + REPO + "/";
     if(USER!=="boxcritters"){
         url += USER + "/";
