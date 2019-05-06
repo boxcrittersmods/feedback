@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<div class="home container">
+    <form id="gitform">
+        <div class="form-group">
+            <label for="titleInput1">GitHub URL</label>
+            <input type="text" class="form-control" id="titleInput1" placeholder="https://github.com/..." name="url" required>
+        </div>
+        <button type="submit" class="btn btn-primary" id="create-url">Create Page</button>
+    </form>
+    <span class="spacer"></span>
+    <form>
+        <label for="button-addon1">URL</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button tabindex="0" href="#" class="btn btn-outline-secondary" type="button" id="button-copy" data-clipboard-target="#feedback-url" data-toggle="popover" title="Text Copied" data-content="Now feel free to share this link so people can send you feedback">
+                    <img src="assets/clippy.svg" width="13" alt="Copy to clipboard">
+                </button>
+            </div>
+            <input type="text" class="form-control" id="feedback-url" aria-label="URL" aria-describedby="button-copy"
+                readonly>
+        </div>
+    </form>
+</div>
+<!--
+title="Text Copied"
+data-content="Now feel free to share this link so people can send you feedback"
+-->

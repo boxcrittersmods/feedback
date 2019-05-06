@@ -1,0 +1,24 @@
+---
+title: Send Feedback
+layout: page
+---
+<form id="feedback-form" method="post">
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">To</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="user/repository">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="textTextarea1">Feedback</label>
+    <textarea class="form-control" id="textTextarea1" rows="20" placeholder="I hated this thing because ..." name="text" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="titleInput1">Summary</label>
+    <input type="text" class="form-control" id="titleInput1" placeholder="" name="title">
+  </div>
+
+  <button type="submit" class="btn btn-primary" id="send-feedback">Send</button>
+</form>
