@@ -85,7 +85,7 @@ function feedbackSubmit() {
     var form = $('#feedback-form');
 
     var data = getFormData(form);
-    var api = "https://bc-mod-api.herokuapp.com/feedback/";
+    var api = "https://api.boxcrittersmods.ga/feedback/";
     var url = api + REPO + "/";
     if(USER!=="boxcritters"){
         url += USER + "/";
