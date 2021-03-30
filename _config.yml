@@ -2,7 +2,7 @@ title: Box Critter Mod Feedback
 description: > # this means to ignore newlines until "baseurl:"
   Text
 base-url: ""
-url: "https://feedback.boxcrittersmods.ga/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://feedback.bcmc.ga/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: boxcritters/feedback
 
 #favicon: 
